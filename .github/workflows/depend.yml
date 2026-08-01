@@ -1,5 +1,6 @@
 name: Deployment Depends
-on: push
+on:
+  workflow_dispatch:
 jobs:
   lint:
     runs-on: ubuntu-latest
